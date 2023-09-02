@@ -1,0 +1,66 @@
+.feed
+    padding: 0 0 71px 0
+    &__item
+        margin-top: 70px
+        display: flex
+        &:nth-child(2)
+            margin-top: 70px
+    img
+        width: 169px
+        height: 169px
+    &__text
+        margin-left: 62px
+        padding-right: 60px
+    &__subtitle
+        font-size: 18px
+        font-weight: 700
+        color: #0d0d0d
+    &__cont
+        font-size: 14px
+        font-weight: 300
+        color: #646464
+    &__descr
+        margin-top: 10px
+        font-size: 16px
+        line-height: 1.2
+        font-weight: 300
+        color: #0d0d0d
+    hr
+        margin-top: 48px
+        height: 1px
+        background-color: #f6f6f6
+        border: none
+
+@media (max-width: 1200px)
+    .feed
+        padding: 0 30px 71px 30px
+
+@media (max-width: 991px)
+    .feed
+        &__subtitle
+            font-size: 16px
+        &__cont
+            font-size: 12px
+        &__descr
+            font-size: 14px
+
+@media (max-width: 767px)
+    .feed
+        img
+            margin-top: 21px
+
+@media (max-width: 575px)
+    .feed
+        &__item
+            flex-direction: column
+            text-align: center
+            margin-top: 40px
+        img
+            width: 155px
+            height: 155px
+            margin: 0 auto
+        &__text
+            margin-left: 0
+            padding-right: 0
+        
+           
